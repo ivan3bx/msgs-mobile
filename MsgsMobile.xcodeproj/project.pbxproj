@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MsgsMobileAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MsgsMobileAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		2CCC078A10F9A3740021971F /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC078810F9A3740021971F /* AuthenticationViewController.m */; };
+		2CCC078B10F9A3740021971F /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CCC078910F9A3740021971F /* AuthenticationViewController.xib */; };
+		2CCCCDB310815E2800B26D2B /* mkdio.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCCCDA610815E2800B26D2B /* mkdio.c */; };
+		2CCCCDB410815E2800B26D2B /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCCCDA710815E2800B26D2B /* markdown.c */; };
+		2CCCCDB510815E2800B26D2B /* generate.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCCCDA810815E2800B26D2B /* generate.c */; };
+		2CCCCDB610815E2800B26D2B /* resource.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCCCDA910815E2800B26D2B /* resource.c */; };
+		2CCCCDB710815E2800B26D2B /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCCCDAA10815E2800B26D2B /* xml.c */; };
+		2CCCCDB810815E2800B26D2B /* Csio.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCCCDAB10815E2800B26D2B /* Csio.c */; };
+		2CCCCDB910815E2800B26D2B /* discountWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCCCDAE10815E2800B26D2B /* discountWrapper.m */; };
+		2CCCCDBA10815E2800B26D2B /* markdownWrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCCCDAF10815E2800B26D2B /* markdownWrapper.c */; };
+		2CCCCDBB10815E2800B26D2B /* mkdioWrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCCCDB110815E2800B26D2B /* mkdioWrapper.c */; };
+		2CCCCE26108199D600B26D2B /* msgsmobile.css in Resources */ = {isa = PBXBuildFile; fileRef = 2CCCCE25108199D600B26D2B /* msgsmobile.css */; };
+		2CCCD0C91085951100B26D2B /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCCD0C71085951100B26D2B /* EditViewController.m */; };
+		2CCCD0CA1085951100B26D2B /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CCCD0C81085951100B26D2B /* EditViewController.xib */; };
+		700444A30FE61F670055E34C /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 700444A20FE61F670055E34C /* RegexKitLite.m */; };
+		700444A60FE61FD90055E34C /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 700444A50FE61FD90055E34C /* libicucore.dylib */; };
+		700DE4D40FE22C6200260D15 /* MSGSConnectionAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 700DE4D30FE22C6200260D15 /* MSGSConnectionAdapter.m */; };
+		70371C2D0FE781A9002996CD /* MessageHeaderViewContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 70371C2C0FE781A9002996CD /* MessageHeaderViewContent.m */; };
+		7069324D0FD72BB1007D20EE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7069324C0FD72BB1007D20EE /* CFNetwork.framework */; };
+		706932810FD72BD8007D20EE /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 706932770FD72BD8007D20EE /* AsyncSocket.m */; };
+		706932820FD72BD8007D20EE /* MSGSConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 706932790FD72BD8007D20EE /* MSGSConnection.m */; };
+		706932830FD72BD8007D20EE /* MSGSURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7069327B0FD72BD8007D20EE /* MSGSURLProtocol.m */; };
+		706932840FD72BD8007D20EE /* NSURLRequest+Msgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 7069327D0FD72BD8007D20EE /* NSURLRequest+Msgs.m */; };
+		7069335E0FD7357C007D20EE /* MessageHeaderViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7069335D0FD7357C007D20EE /* MessageHeaderViewCell.m */; };
+		706933800FD7366F007D20EE /* MSGHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7069337F0FD7366F007D20EE /* MSGHeader.m */; };
+		706933940FD73695007D20EE /* MSGRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 706933930FD73695007D20EE /* MSGRepository.m */; };
+		7093794C0FFF4B97007391F0 /* LinkedWebContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7093794A0FFF4B97007391F0 /* LinkedWebContentController.m */; };
+		7093794D0FFF4B97007391F0 /* LinkedWebContentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7093794B0FFF4B97007391F0 /* LinkedWebContentController.xib */; };
+		70BE0A1A0FE8BDEA00ED8A84 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BE0A180FE8BDEA00ED8A84 /* DetailViewController.m */; };
+		70BE0A1B0FE8BDEA00ED8A84 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70BE0A190FE8BDEA00ED8A84 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MsgsMobileAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgsMobileAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MsgsMobileAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MsgsMobileAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MsgsMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MsgsMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* MsgsMobile_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgsMobile_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Views/MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CCC078710F9A3740021971F /* AuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationViewController.h; sourceTree = "<group>"; };
+		2CCC078810F9A3740021971F /* AuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationViewController.m; sourceTree = "<group>"; };
+		2CCC078910F9A3740021971F /* AuthenticationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AuthenticationViewController.xib; path = Classes/AuthenticationViewController.xib; sourceTree = "<group>"; };
+		2CCC087210F9B81C0021971F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		2CCCCDA610815E2800B26D2B /* mkdio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mkdio.c; sourceTree = "<group>"; };
+		2CCCCDA710815E2800B26D2B /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = markdown.c; sourceTree = "<group>"; };
+		2CCCCDA810815E2800B26D2B /* generate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = generate.c; sourceTree = "<group>"; };
+		2CCCCDA910815E2800B26D2B /* resource.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = resource.c; sourceTree = "<group>"; };
+		2CCCCDAA10815E2800B26D2B /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xml.c; sourceTree = "<group>"; };
+		2CCCCDAB10815E2800B26D2B /* Csio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Csio.c; sourceTree = "<group>"; };
+		2CCCCDAD10815E2800B26D2B /* discountWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = discountWrapper.h; sourceTree = "<group>"; };
+		2CCCCDAE10815E2800B26D2B /* discountWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = discountWrapper.m; sourceTree = "<group>"; };
+		2CCCCDAF10815E2800B26D2B /* markdownWrapper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = markdownWrapper.c; sourceTree = "<group>"; };
+		2CCCCDB010815E2800B26D2B /* markdownWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = markdownWrapper.h; sourceTree = "<group>"; };
+		2CCCCDB110815E2800B26D2B /* mkdioWrapper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mkdioWrapper.c; sourceTree = "<group>"; };
+		2CCCCDB210815E2800B26D2B /* mkdioWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mkdioWrapper.h; sourceTree = "<group>"; };
+		2CCCCDC710815E5B00B26D2B /* amalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amalloc.h; sourceTree = "<group>"; };
+		2CCCCDC810815E5B00B26D2B /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		2CCCCDC910815E5B00B26D2B /* cstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cstring.h; sourceTree = "<group>"; };
+		2CCCCDCA10815E5B00B26D2B /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = markdown.h; sourceTree = "<group>"; };
+		2CCCCDCB10815E5B00B26D2B /* mkdio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mkdio.h; sourceTree = "<group>"; };
+		2CCCCE25108199D600B26D2B /* msgsmobile.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = msgsmobile.css; sourceTree = "<group>"; };
+		2CCCD0C61085951100B26D2B /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		2CCCD0C71085951100B26D2B /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		2CCCD0C81085951100B26D2B /* EditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EditViewController.xib; path = Classes/EditViewController.xib; sourceTree = "<group>"; };
+		700444A10FE61F670055E34C /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		700444A20FE61F670055E34C /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		700444A50FE61FD90055E34C /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = /usr/lib/libicucore.dylib; sourceTree = "<absolute>"; };
+		700DE4D20FE22C6200260D15 /* MSGSConnectionAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGSConnectionAdapter.h; sourceTree = "<group>"; };
+		700DE4D30FE22C6200260D15 /* MSGSConnectionAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSGSConnectionAdapter.m; sourceTree = "<group>"; };
+		70371C2B0FE781A9002996CD /* MessageHeaderViewContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageHeaderViewContent.h; sourceTree = "<group>"; };
+		70371C2C0FE781A9002996CD /* MessageHeaderViewContent.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MessageHeaderViewContent.m; sourceTree = "<group>"; };
+		7069324C0FD72BB1007D20EE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		706932760FD72BD8007D20EE /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		706932770FD72BD8007D20EE /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		706932780FD72BD8007D20EE /* MSGSConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGSConnection.h; sourceTree = "<group>"; };
+		706932790FD72BD8007D20EE /* MSGSConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSGSConnection.m; sourceTree = "<group>"; };
+		7069327A0FD72BD8007D20EE /* MSGSURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGSURLProtocol.h; sourceTree = "<group>"; };
+		7069327B0FD72BD8007D20EE /* MSGSURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSGSURLProtocol.m; sourceTree = "<group>"; };
+		7069327C0FD72BD8007D20EE /* NSURLRequest+Msgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+Msgs.h"; sourceTree = "<group>"; };
+		7069327D0FD72BD8007D20EE /* NSURLRequest+Msgs.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+Msgs.m"; sourceTree = "<group>"; };
+		7069327F0FD72BD8007D20EE /* MSGSURLProtocolTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGSURLProtocolTest.h; sourceTree = "<group>"; };
+		706932800FD72BD8007D20EE /* MSGSURLProtocolTest.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSGSURLProtocolTest.m; sourceTree = "<group>"; };
+		7069335C0FD7357C007D20EE /* MessageHeaderViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageHeaderViewCell.h; sourceTree = "<group>"; };
+		7069335D0FD7357C007D20EE /* MessageHeaderViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MessageHeaderViewCell.m; sourceTree = "<group>"; };
+		7069337E0FD7366F007D20EE /* MSGHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGHeader.h; sourceTree = "<group>"; };
+		7069337F0FD7366F007D20EE /* MSGHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSGHeader.m; sourceTree = "<group>"; };
+		706933920FD73695007D20EE /* MSGRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGRepository.h; sourceTree = "<group>"; };
+		706933930FD73695007D20EE /* MSGRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSGRepository.m; sourceTree = "<group>"; };
+		709379490FFF4B97007391F0 /* LinkedWebContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedWebContentController.h; sourceTree = "<group>"; };
+		7093794A0FFF4B97007391F0 /* LinkedWebContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedWebContentController.m; sourceTree = "<group>"; };
+		7093794B0FFF4B97007391F0 /* LinkedWebContentController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LinkedWebContentController.xib; path = Views/LinkedWebContentController.xib; sourceTree = "<group>"; };
+		70BE0A170FE8BDEA00ED8A84 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		70BE0A180FE8BDEA00ED8A84 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		70BE0A190FE8BDEA00ED8A84 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DetailViewController.xib; path = Views/DetailViewController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				7069324D0FD72BB1007D20EE /* CFNetwork.framework in Frameworks */,
+				700444A60FE61FD90055E34C /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* MsgsMobileAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MsgsMobileAppDelegate.m */,
+				7069335C0FD7357C007D20EE /* MessageHeaderViewCell.h */,
+				7069335D0FD7357C007D20EE /* MessageHeaderViewCell.m */,
+				70371C2B0FE781A9002996CD /* MessageHeaderViewContent.h */,
+				70371C2C0FE781A9002996CD /* MessageHeaderViewContent.m */,
+				70BE0A170FE8BDEA00ED8A84 /* DetailViewController.h */,
+				70BE0A180FE8BDEA00ED8A84 /* DetailViewController.m */,
+				709379490FFF4B97007391F0 /* LinkedWebContentController.h */,
+				7093794A0FFF4B97007391F0 /* LinkedWebContentController.m */,
+				2CCCD0C61085951100B26D2B /* EditViewController.h */,
+				2CCCD0C71085951100B26D2B /* EditViewController.m */,
+				2CCC078710F9A3740021971F /* AuthenticationViewController.h */,
+				2CCC078810F9A3740021971F /* AuthenticationViewController.m */,
+				2CCC087210F9B81C0021971F /* Constants.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MsgsMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2CCCCDA510815E2800B26D2B /* discount-1.5.4 */,
+				2CCCCDAC10815E2800B26D2B /* discount_wrappers */,
+				7069337D0FD7364F007D20EE /* Model */,
+				706932750FD72BD8007D20EE /* Network */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				7069327E0FD72BD8007D20EE /* Unit Tests */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* MsgsMobile_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				2CCCCE25108199D600B26D2B /* msgsmobile.css */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CCC078910F9A3740021971F /* AuthenticationViewController.xib */,
+				2CCCD0C81085951100B26D2B /* EditViewController.xib */,
+				70BE0A190FE8BDEA00ED8A84 /* DetailViewController.xib */,
+				7093794B0FFF4B97007391F0 /* LinkedWebContentController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				700444A50FE61FD90055E34C /* libicucore.dylib */,
+				700444A00FE61F670055E34C /* RegexKitLite-3.1 */,
+				7069324C0FD72BB1007D20EE /* CFNetwork.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CCCCDA510815E2800B26D2B /* discount-1.5.4 */ = {
+			isa = PBXGroup;
+			children = (
+				2CCCCDC710815E5B00B26D2B /* amalloc.h */,
+				2CCCCDC810815E5B00B26D2B /* config.h */,
+				2CCCCDC910815E5B00B26D2B /* cstring.h */,
+				2CCCCDCA10815E5B00B26D2B /* markdown.h */,
+				2CCCCDCB10815E5B00B26D2B /* mkdio.h */,
+				2CCCCDA610815E2800B26D2B /* mkdio.c */,
+				2CCCCDA710815E2800B26D2B /* markdown.c */,
+				2CCCCDA810815E2800B26D2B /* generate.c */,
+				2CCCCDA910815E2800B26D2B /* resource.c */,
+				2CCCCDAA10815E2800B26D2B /* xml.c */,
+				2CCCCDAB10815E2800B26D2B /* Csio.c */,
+			);
+			path = "discount-1.5.4";
+			sourceTree = "<group>";
+		};
+		2CCCCDAC10815E2800B26D2B /* discount_wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				2CCCCDAD10815E2800B26D2B /* discountWrapper.h */,
+				2CCCCDAE10815E2800B26D2B /* discountWrapper.m */,
+				2CCCCDAF10815E2800B26D2B /* markdownWrapper.c */,
+				2CCCCDB010815E2800B26D2B /* markdownWrapper.h */,
+				2CCCCDB110815E2800B26D2B /* mkdioWrapper.c */,
+				2CCCCDB210815E2800B26D2B /* mkdioWrapper.h */,
+			);
+			path = discount_wrappers;
+			sourceTree = "<group>";
+		};
+		700444A00FE61F670055E34C /* RegexKitLite-3.1 */ = {
+			isa = PBXGroup;
+			children = (
+				700444A10FE61F670055E34C /* RegexKitLite.h */,
+				700444A20FE61F670055E34C /* RegexKitLite.m */,
+			);
+			path = "RegexKitLite-3.1";
+			sourceTree = "<group>";
+		};
+		706932750FD72BD8007D20EE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				706932760FD72BD8007D20EE /* AsyncSocket.h */,
+				706932770FD72BD8007D20EE /* AsyncSocket.m */,
+				706932780FD72BD8007D20EE /* MSGSConnection.h */,
+				706932790FD72BD8007D20EE /* MSGSConnection.m */,
+				7069327A0FD72BD8007D20EE /* MSGSURLProtocol.h */,
+				7069327B0FD72BD8007D20EE /* MSGSURLProtocol.m */,
+				7069327C0FD72BD8007D20EE /* NSURLRequest+Msgs.h */,
+				7069327D0FD72BD8007D20EE /* NSURLRequest+Msgs.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7069327E0FD72BD8007D20EE /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7069327F0FD72BD8007D20EE /* MSGSURLProtocolTest.h */,
+				706932800FD72BD8007D20EE /* MSGSURLProtocolTest.m */,
+			);
+			path = "Unit Tests";
+			sourceTree = "<group>";
+		};
+		7069337D0FD7364F007D20EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7069337E0FD7366F007D20EE /* MSGHeader.h */,
+				7069337F0FD7366F007D20EE /* MSGHeader.m */,
+				706933920FD73695007D20EE /* MSGRepository.h */,
+				706933930FD73695007D20EE /* MSGRepository.m */,
+				700DE4D20FE22C6200260D15 /* MSGSConnectionAdapter.h */,
+				700DE4D30FE22C6200260D15 /* MSGSConnectionAdapter.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MsgsMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MsgsMobile" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MsgsMobile;
+			productName = MsgsMobile;
+			productReference = 1D6058910D05DD3D006BFB54 /* MsgsMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MsgsMobile" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MsgsMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				70BE0A1B0FE8BDEA00ED8A84 /* DetailViewController.xib in Resources */,
+				7093794D0FFF4B97007391F0 /* LinkedWebContentController.xib in Resources */,
+				2CCCCE26108199D600B26D2B /* msgsmobile.css in Resources */,
+				2CCCD0CA1085951100B26D2B /* EditViewController.xib in Resources */,
+				2CCC078B10F9A3740021971F /* AuthenticationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MsgsMobileAppDelegate.m in Sources */,
+				706932810FD72BD8007D20EE /* AsyncSocket.m in Sources */,
+				706932820FD72BD8007D20EE /* MSGSConnection.m in Sources */,
+				706932830FD72BD8007D20EE /* MSGSURLProtocol.m in Sources */,
+				706932840FD72BD8007D20EE /* NSURLRequest+Msgs.m in Sources */,
+				7069335E0FD7357C007D20EE /* MessageHeaderViewCell.m in Sources */,
+				706933800FD7366F007D20EE /* MSGHeader.m in Sources */,
+				706933940FD73695007D20EE /* MSGRepository.m in Sources */,
+				700DE4D40FE22C6200260D15 /* MSGSConnectionAdapter.m in Sources */,
+				700444A30FE61F670055E34C /* RegexKitLite.m in Sources */,
+				70371C2D0FE781A9002996CD /* MessageHeaderViewContent.m in Sources */,
+				70BE0A1A0FE8BDEA00ED8A84 /* DetailViewController.m in Sources */,
+				7093794C0FFF4B97007391F0 /* LinkedWebContentController.m in Sources */,
+				2CCCCDB310815E2800B26D2B /* mkdio.c in Sources */,
+				2CCCCDB410815E2800B26D2B /* markdown.c in Sources */,
+				2CCCCDB510815E2800B26D2B /* generate.c in Sources */,
+				2CCCCDB610815E2800B26D2B /* resource.c in Sources */,
+				2CCCCDB710815E2800B26D2B /* xml.c in Sources */,
+				2CCCCDB810815E2800B26D2B /* Csio.c in Sources */,
+				2CCCCDB910815E2800B26D2B /* discountWrapper.m in Sources */,
+				2CCCCDBA10815E2800B26D2B /* markdownWrapper.c in Sources */,
+				2CCCCDBB10815E2800B26D2B /* mkdioWrapper.c in Sources */,
+				2CCCD0C91085951100B26D2B /* EditViewController.m in Sources */,
+				2CCC078A10F9A3740021971F /* AuthenticationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MsgsMobile_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = MsgsMobile;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MsgsMobile_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = MsgsMobile;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MsgsMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MsgsMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,29 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+blockquote {
+	font-size: 11px;
+	background-color: rgb(240,240,240);
+	margin: 4px; padding: 2px;
+	float: none;
+}
+
+blockquote.level2 { 
+	background-color: rgb(220,220,220);
+}
+
+pre {
+	color: rgb(40,40,40);
+	font-size: 10px;
+}
+
+#header {
+	margin: 0px; padding: 0px;
+	font-family: 'Helvetica';
+	font-style: bold;
+	font-size: 14px;
+	color: rgb(255,255,255);
+	background-color: rgb(109,131,161);
+}
